@@ -1,0 +1,1 @@
+str="this is a full-fledged chatbot along with tools"
