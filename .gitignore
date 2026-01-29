@@ -1,0 +1,80 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# LangGraph / LangChain
+# =========================
+
+# SQLite checkpoints (LangGraph)
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector stores
+faiss_index/
+chroma/
+chroma_db/
+chromadb/
+
+# Embedding caches
+.embeddings/
+.cache/
+.hf_cache/
+
+# =========================
+# Hugging Face
+# =========================
+.huggingface/
+.hf/
+hf_home/
+transformers_cache/
+
+# =========================
+# Model / Data artifacts
+# =========================
+models/
+checkpoints/
+runs/
+outputs/
+logs/
+
+# =========================
+# Secrets & Environment
+# =========================
+.env
+.env.*
+*.key
+*.pem
+*.token
+my_chat
+
+# =========================
+# Jupyter / Experiments
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+langchain
+langgraph
+dotenv
+streamlit
+langchain-community
+ddgs
+amadeus
+langgraph-checkpoint-sqlite
