@@ -1,8 +1,23 @@
-langchain
-langgraph
-dotenv
-streamlit
-langchain-community
-ddgs
-amadeus
-langgraph-checkpoint-sqlite
+# ---------------- Core App ----------------
+streamlit>=1.32.0
+
+# ---------------- LangChain / LangGraph ----------------
+langchain>=0.2.10
+langchain-core>=0.2.25
+langgraph>=0.0.69
+
+# ---------------- LLM Providers ----------------
+langchain-openai>=0.1.8
+openai>=1.30.0
+
+# ---------------- Utilities ----------------
+python-dotenv>=1.0.1
+uuid7>=0.1.0
+
+# ---------------- Database / Checkpointing ----------------
+aiosqlite>=0.20.0
+sqlite-utils>=3.36
+
+# ---------------- Optional but strongly recommended ----------------
+pydantic>=2.7.0
+typing-extensions>=4.12.0
