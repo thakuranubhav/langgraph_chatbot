@@ -11,14 +11,13 @@ langchain-huggingface>=0.0.3
 langchain-openai>=0.1.8
 openai>=1.30.0
 
-# ---------------- Utilities ----------------
-python-dotenv>=1.0.1
-uuid7>=0.1.0
-
 # ---------------- Database / Checkpointing ----------------
 aiosqlite>=0.20.0
 sqlite-utils>=3.36
 
-# ---------------- Optional but strongly recommended ----------------
+# ---------------- Utilities ----------------
+python-dotenv>=1.0.1
+
+# ---------------- Stability ----------------
 pydantic>=2.7.0
 typing-extensions>=4.12.0
